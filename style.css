@@ -40,3 +40,29 @@ color: orange;
     padding-right: 150px;
     text-align: justify;
 }
+.box-shadow{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#baby-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
